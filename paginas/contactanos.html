@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contacto o Consulta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--tipo letra Titulo-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--tipo letra Titulo-->
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet"><!--tipo letra Titulo-->
+    <link rel="stylesheet" href="../css/estilosCl.css">  <!--Archivo con estilos-->
+</head>
+<body>
+    <div class="cgridDivision"> <!--TITULO LOGO -->
+        <div class="cgridHf"><!--Top Pagina -->
+            <header>
+                <img src="../multimedia/elefante.png" alt="Elefante" class="logo"> <!--Logo-->
+                <h1 class="tituloP">Cositas Lindas y Chic</h1><!--Titulo Principal-->
+                <div>
+                    <img src="../multimedia/Insta.png" alt="Logo de Instagram" class="imgRs" class =".logoInsta"><!--Logo redes-->
+                    <img  src="../multimedia/facebookDos.png" alt="Logo de Facebook" class="imgRs" class=".logoFace"><!--Logo redes-->
+                </div>
+            </header>
+        </div><!--FIN Top Pagina -->
+    </div><!--TITULO LOGO -->
+    <div class="cgridDivision">  <!-- MENU -->
+        <div class="cgridElement">
+            <nav ><!--Menu navegacion-->
+                <ul class="menuPag"  >
+                    <li><a    href="../index.html">Inicio</a></li>  <!--saco line de linkeo-->
+                    <li><a    href="organizadores.html">Organizadores</a></li> 
+                    <li><a    href="parapasear.html">Para Pasear</a> </li>                       
+                    <li><a    href="tipsmontessori.html">Tips Montessori</a></li>
+                    <li><a    href="contactanos.html">Contactanos</a></li>
+                </ul>
+            </nav>    <!--FIN Menu navegacion-->
+        </div>    
+    </div><!-- MENU -->
+
+    <div class="cgridDivision">  <!-- FORMULARIO -->
+        <div class="cgridElement">
+            <H2 class="precioDesc">Contactanos</H2>
+            <H3 class="precioDesc">Envianos tu Consulta o Comentario te responderemos a la brevedad</H3>
+            <form class="precioDesc" >
+                <label for="nombre_apellido" >Nombre:</label>	<!--Nombre del Campo -->
+                <input  type="text" name="Nombre" /><!-- Espacio Vacio donde se ingresa la info -->
+                <label for="Email">Email:</label>	
+                <input type="email" name="Email"/>
+                <legend>Producto</legend><!--Menu Despegable -->
+                <select   name="Producto">
+                    <option value="SP" >Seleccionar Producto</option>
+                    <option value="Neceser">Neceser</option>
+                    <option value="Lona">Lona</option>
+                    <option value="Porta Ropa">Porta Ropa</option>
+                    <option value="Cestos">Cestos</option>
+                    <option value="Almohadita">Almohadita</option>
+                    <option value="Colchoncito">Colchoncito</option>
+                    <option value="Cambiadores">Cambiadores</option>
+                </select> <br>
+                <label for="Comentarios">Consulta/Comentario:</label>	<br>
+                <textarea type="text" rows="10" cols="50" name="Comentarios"></textarea> <br>
+                  
+            </form>
+        </div>  
+        <div class="cgridElement precioDesc" >
+            <h3>Conoces el Metodo Montessori?</h3> <!--Check Box -->
+                <label>SI</label>
+                <input type="checkbox" name="SI">
+                <label>NO</label>
+                <input type="checkbox" name="NO"> <br>
+                <input class="boton" type="submit" value="Enviar Formulario"/><!--Botones -->
+                <input class="boton" type="reset" value="Limpiar Formulario"/>  
+        </div>   
+    </div><!-- FORMULARIO -->
+
+
+    <div class="cgridDivision"><!--Fin de la pagina -->
+        <div class="cgridHf">
+            <footer class="subtituloF"> 
+                <h4 class="textoRs">CositasLindas@2017</h4>
+                <DIV class="emailPos">
+                    <h4 class="textoRs">Escribenos:</h4>
+                    <h4 class="textoRs">CositasLindas@gmail.com</h4>
+                </DIV>  
+                <div class="imgPos">
+                    <h4 class="textoRs">Encontranos en </h4>
+                    <img src="../multimedia/Insta.png" alt="Logo de Instagram" class="imgRsf">
+                    <img src="../multimedia/facebookDos.png" alt="Logo de Facebook" class="imgRsf">
+                </div>
+            </footer>
+        </div>
+    </div><!--Fin de la pagina -->
+</body>
+</html>
