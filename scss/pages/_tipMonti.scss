@@ -1,0 +1,44 @@
+
+
+/*video*/
+iframe
+{
+    margin: 15px;
+}
+.tipMonti{  
+    
+    width: 350px; /* ancho */
+    height: 200px; /* alto */ 
+    padding:15px;
+    margin: 20px;
+    border: 2px dotted;
+    border-radius: 5px;
+    color:  #5EAAA8;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.6;
+    background-color:azure;
+    
+
+  }
+  .nota{margin-top: 50px;
+    text-align: center;
+    animation: logoMove 10s infinite;
+    animation-name: shownNota;
+    color: #5EAAA8
+       }
+   @keyframes shownNota {
+    0% {
+      opacity: 0.5;
+      
+    }
+    50% {
+        opacity: 0.33;
+        font-size: 10px;
+      }
+    100% {
+      opacity: 1;
+      color: #5EAAA8;
+      font-size: 20px;
+    }
+ }

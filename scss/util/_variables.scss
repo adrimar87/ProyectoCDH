@@ -1,0 +1,7 @@
+@mixin tamano ($alto,$ancho,$bradio)
+{
+    height:$alto ;
+    width: $ancho ;
+    border-radius:$bradio ;
+    
+}

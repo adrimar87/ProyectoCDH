@@ -1,0 +1,19 @@
+/*Util*/
+@import"./util/reset";
+@import"./util/forma";
+@import"./util/variables";
+
+
+/*Partials*/
+
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/menu";
+@import "./partials/tablas";
+@import "./partials/imagenes";
+
+
+/*Paginas*/
+@import "./pages/indexcontacnos";
+@import "./pages/productos";
+@import "./pages/tipMonti";

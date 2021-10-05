@@ -1,0 +1,42 @@
+/*Menu Paginas*/
+.menuPag{
+    margin-left: 5px;
+    text-decoration:none;
+    display:inline-block;
+
+    & > li {
+        float:left;    
+    }
+    li{ 
+        a {
+            background-color:#A3D2CA;
+            color:#3a8b89;
+            text-decoration:none;
+            padding:10px 12px;
+            display:block;
+            border-radius: 5px;
+         }
+         &:hover {
+            background-color:#A3D2CA;
+            text-decoration:none;
+        }
+        ul {
+            display:none;
+            position:absolute;
+            min-width:140px;
+            li {
+                position:relative;
+                ul {
+                    right:-140px;
+                    top:0px;
+                } 
+            }
+        }
+    }
+    &:hover {
+        >ul {
+        display:block;
+      }
+    }
+    
+}

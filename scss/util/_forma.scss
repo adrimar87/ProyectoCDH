@@ -1,0 +1,101 @@
+/*GRID CONTACTO e INICIO*/
+.cgridDivision {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5px;
+  }
+  .cgridSubdivision {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    align-self: center;
+    
+  }
+  .cgridElement {
+    padding: 5px;
+    font-size: 15px;
+    align-self: center;
+    justify-self: center;
+  }
+  .cgridHf {
+    padding: 5px;
+    font-size: 15px;
+    align-self: center;
+  }
+
+  .igridCentral{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding: 5px;
+  }
+  .igridImagen {
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+/*FIN GRID*/
+
+/*GRID PRODUCTOS*/
+.gridDivision {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5px;
+  }
+  .gridSubdivision {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    align-self: center;
+  }
+  .gridElement {
+    padding:5px;
+    font-size: 15px;
+    align-self: center;
+    justify-self: center;
+  }
+  .gridHf {
+    padding: 5px;
+    font-size: 10px;
+    align-self: center;
+  }
+
+/*FIN GRID*/
+
+/*GRID TIP MONTI*/
+.tpgridUnicos {
+    display: grid;
+    grid-template-columns: auto ;
+    padding: 5px;
+  }
+  .tpgridCentral {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 5px;
+  }
+  .tpgridIamgen{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    padding: 5px;
+  }
+  .tpgridItem {
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+
+  .tpgridSubcentral {
+    display: grid;
+    grid-template-columns: auto ;
+    padding: 5px;
+  }
+  .tpgridItemcentral {  
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+
+/*FIN GRID*/

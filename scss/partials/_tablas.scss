@@ -1,0 +1,30 @@
+/*Tablas de descripcion producto*/
+table {
+    margin: 15px;
+    border: 4px ;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius: 5px;
+   }  
+th {
+ background-color:#A3D2CA;
+ border: 1px dotted ;
+ color:#5EAAA8;
+ text-align: center;
+ border:  inset;
+}
+td{
+border: 1px dotted;
+border:  inset;
+color: #5EAAA8;
+padding-left:5px;
+padding-right:5px;
+border-radius: 5px;
+text-align: center;
+font-style: italic;
+background-color:azure;
+}
+ol{
+text-align: left;
+margin-left: 12px;
+}

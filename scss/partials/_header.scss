@@ -1,0 +1,59 @@
+/*CABECERA*/
+/*Titulo Principal*/
+header{ 
+    height: 180PX;
+    display: flex;
+   justify-content: space-around;
+   margin: 7px;
+      
+  }
+.tituloP {
+    color:#DB6400;
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    font-size: 60px;    
+    margin-left: 5px;
+    }
+/*Logo*/
+    .logo{
+        width: 130px;
+        margin-left: 5px;
+        animation: logoMove 10s infinite;
+    }
+    
+    @keyframes logoMove {
+      0% {
+          transform: rotate(-20deg);
+      }
+      50% {
+          transform: rotate(20deg);
+      }
+      100% {
+          transform: rotate(-20deg);
+      }
+    }
+/*Logo redes sociales*/
+    .imgRs{
+         width: 35px;  
+        height: 35px;
+        align-self:flex-start;
+        order:5;
+        animation: redMove 10s infinite;
+        
+    }
+    
+    @keyframes redMove {
+      0% {
+          transform: rotateX(50deg);
+      }
+      50% {
+          transform: rotateY(150deg);
+      }
+    
+      75% {
+          transform: rotateZ(90deg);
+      }
+      100% {
+          transform: rotateX(50deg);
+      }
+    }

@@ -1,0 +1,107 @@
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #3a8b89;
+    background-color: #A3D2CA;
+    border-radius: 5px;
+    padding: 0px 8px;
+    margin: 5px;
+    font-weight: bold
+    
+          
+}
+/*index contacto*/
+.cgridHf__subtituloF {
+    color:#3a8b89;
+    background-color: #A3D2CA;
+}
+
+
+/*Texto Footer*/
+.cgridHf__textoRs{
+    margin-top: 15px;
+   /*  font-weight: 100; */
+    font-style: italic
+}
+
+.cgridHf__emailPos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+/*Img Footer*/
+.cgridHf__imgPos{
+        display: flex;  
+        justify-content: space-evenly;   
+        width: 200px;       
+      }
+.cgridHf__imgRsf{ width: 35px;  
+        height: 35px;
+     }
+
+
+
+/*tip montesiori*/
+     .tpgridItem__subtituloF {
+        color:#3a8b89;
+        background-color: #A3D2CA;
+    }
+    
+    
+    /*Texto Footer*/
+    .tpgridItem__textoRs{
+        margin-top: 15px;
+       /*  font-weight: 100; */
+        font-style: italic
+    }
+    
+    .tpgridItem__emailPos{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+    /*Img Footer*/
+    .tpgridItem__imgPos{
+            display: flex;  
+            justify-content: space-evenly;   
+            width: 200px;       
+          }
+    .tpgridItem__imgRsf{ width: 35px;  
+            height: 35px;
+         }
+
+
+
+/*productos*/
+     .gridHf__subtituloF {
+        color:#3a8b89;
+        background-color: #A3D2CA;
+    }
+    
+    
+    /*Texto Footer*/
+    .gridHf__textoRs{
+        margin-top: 15px;
+       /*  font-weight: 100; */
+        font-style: italic
+    }
+    
+    .gridHf__emailPos{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+    /*Img Footer*/
+    .gridHf__imgPos{
+            display: flex;  
+            justify-content: space-evenly;   
+            width: 200px;       
+          }
+    .gridHf__imgRsf{ width: 35px;  
+            height: 35px;
+         }
